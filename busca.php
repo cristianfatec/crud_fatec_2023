@@ -2,7 +2,7 @@
 
 header('Access-Control-Allow-Origin: *');
 
-$connect = new PDO("mysql:host=localhost;dbname=id19500520_db", "id19500520_user", "Xitn^Gbvn3V9Kg<)");
+$connect = new PDO("mysql:host=localhost;dbname=id21363972_bd2023", "id21363972_cristiandsmfatec", "123Tulio!");
 
 $received_data = json_decode(file_get_contents("php://input"));
 
